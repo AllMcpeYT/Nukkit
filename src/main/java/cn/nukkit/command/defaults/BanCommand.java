@@ -7,10 +7,6 @@ import cn.nukkit.event.TranslationContainer;
 
 import java.util.Objects;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
 public class BanCommand extends VanillaCommand {
 
     public BanCommand(String name) {
