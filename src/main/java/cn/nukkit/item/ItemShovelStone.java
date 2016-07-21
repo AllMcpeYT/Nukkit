@@ -15,7 +15,7 @@ public class ItemShovelStone extends ItemTool {
     }
 
     public ItemShovelStone(Integer meta, int count) {
-        super(STONE_SHOVEL, meta, count, "Stone Shovel");
+        super(STONE_SHOVEL, meta, count, TextFormat.GRAY + "Stone Shovel");
     }
 
     @Override
