@@ -4,10 +4,6 @@ import cn.nukkit.item.Item;
 import cn.nukkit.level.format.FullChunk;
 import cn.nukkit.nbt.tag.CompoundTag;
 
-/**
- * Author: BeYkeRYkt
- * Nukkit Project
- */
 public class EntityOcelot extends EntityAnimal {
 
     public static final int NETWORK_ID = 22;
@@ -29,7 +25,7 @@ public class EntityOcelot extends EntityAnimal {
     @Override
     public float getHeight() {
         if (isBaby()) {
-            return 0.8f; // No have information
+            return 0.8f;
         }
         return 0.8f;
     }
@@ -37,7 +33,7 @@ public class EntityOcelot extends EntityAnimal {
     @Override
     public float getEyeHeight() {
         if (isBaby()) {
-            return 0.8f * getHeight(); // No have information
+            return 0.8f * getHeight();
         }
         return 0.8f * getHeight();
     }
@@ -49,7 +45,7 @@ public class EntityOcelot extends EntityAnimal {
 
     @Override
     public Item[] getDrops() {
-        return new Item[]{};
+        return new Item[]{Item.get(Item.GOLD_INGOT), Item.get(Item.DIAMOND)};
     }
 
     @Override
