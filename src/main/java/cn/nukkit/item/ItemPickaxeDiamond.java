@@ -1,9 +1,5 @@
 package cn.nukkit.item;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
 public class ItemPickaxeDiamond extends ItemTool {
 
     public ItemPickaxeDiamond() {
@@ -15,7 +11,7 @@ public class ItemPickaxeDiamond extends ItemTool {
     }
 
     public ItemPickaxeDiamond(Integer meta, int count) {
-        super(DIAMOND_PICKAXE, meta, count, "Diamond Pickaxe");
+        super(DIAMOND_PICKAXE, meta, count, TextFormat.AQUA + "Diamond Pickaxe");
     }
 
     @Override
