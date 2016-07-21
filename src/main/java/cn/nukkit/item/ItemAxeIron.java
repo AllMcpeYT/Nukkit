@@ -1,9 +1,5 @@
 package cn.nukkit.item;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
 public class ItemAxeIron extends ItemTool {
 
     public ItemAxeIron() {
