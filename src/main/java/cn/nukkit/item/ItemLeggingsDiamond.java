@@ -15,7 +15,7 @@ public class ItemLeggingsDiamond extends ItemArmor {
     }
 
     public ItemLeggingsDiamond(Integer meta, int count) {
-        super(DIAMOND_LEGGINGS, meta, count, "Diamond Leggings");
+        super(DIAMOND_LEGGINGS, meta, count, TextFormat.AQUA + "Diamond Leggings");
     }
 
     @Override
