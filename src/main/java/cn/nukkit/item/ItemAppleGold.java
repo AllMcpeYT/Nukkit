@@ -15,6 +15,6 @@ public class ItemAppleGold extends Item {
     }
 
     public ItemAppleGold(Integer meta, int count) {
-        super(GOLDEN_APPLE, meta, count, "Golden Apple");
+        super(GOLDEN_APPLE, meta, count, TextFormat.YELLOW +  "Golden Apple");
     }
 }
