@@ -60,6 +60,11 @@ public class EntityVillager extends EntityCreature implements EntityNPC, EntityA
     public int getProfession() {
         return this.namedTag.getInt("Profession");
     }
+    
+    @Override
+    public Item[] getDrops() {
+        return new Item[]{Item.get(Item.EMERALD)};
+    }
 
     public void setProfession(int profession) {
         this.namedTag.putInt("Profession", profession);
