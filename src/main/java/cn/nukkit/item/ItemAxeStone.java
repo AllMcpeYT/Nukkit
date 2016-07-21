@@ -1,9 +1,5 @@
 package cn.nukkit.item;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
 public class ItemAxeStone extends ItemTool {
 
     public ItemAxeStone() {
@@ -15,7 +11,7 @@ public class ItemAxeStone extends ItemTool {
     }
 
     public ItemAxeStone(Integer meta, int count) {
-        super(STONE_AXE, meta, count, "Stone Axe");
+        super(STONE_AXE, meta, count, TextFormat.GRAY + "Stone Axe");
     }
 
     @Override
