@@ -15,7 +15,7 @@ public class ItemChestplateDiamond extends ItemArmor {
     }
 
     public ItemChestplateDiamond(Integer meta, int count) {
-        super(DIAMOND_CHESTPLATE, meta, count, "Diamond Chestplate");
+        super(DIAMOND_CHESTPLATE, meta, count, TextFormat.AQUA + "Diamond Chestplate");
     }
 
     @Override
