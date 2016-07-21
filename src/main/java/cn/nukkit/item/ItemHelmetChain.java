@@ -1,9 +1,5 @@
 package cn.nukkit.item;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
 public class ItemHelmetChain extends ItemArmor {
 
     public ItemHelmetChain() {
@@ -15,7 +11,7 @@ public class ItemHelmetChain extends ItemArmor {
     }
 
     public ItemHelmetChain(Integer meta, int count) {
-        super(CHAIN_HELMET, meta, count, "Chainmail Helmet");
+        super(CHAIN_HELMET, meta, count, TextFormat.GRAY + "Chainmail Helmet");
     }
 
     @Override
