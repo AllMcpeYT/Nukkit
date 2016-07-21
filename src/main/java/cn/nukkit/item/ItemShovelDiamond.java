@@ -15,7 +15,7 @@ public class ItemShovelDiamond extends ItemTool {
     }
 
     public ItemShovelDiamond(Integer meta, int count) {
-        super(DIAMOND_SHOVEL, meta, count, "Diamond Shovel");
+        super(DIAMOND_SHOVEL, meta, count, TextFormat.AQUA + "Diamond Shovel");
     }
 
     @Override
