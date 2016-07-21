@@ -15,7 +15,7 @@ public class ItemHoeDiamond extends ItemTool {
     }
 
     public ItemHoeDiamond(Integer meta, int count) {
-        super(DIAMOND_HOE, meta, count, "Diamond Hoe");
+        super(DIAMOND_HOE, meta, count, TextFormat.AQUA + "Diamond Hoe");
     }
 
     @Override
