@@ -17,7 +17,7 @@ public class ItemCarrot extends ItemEdible {
     }
 
     public ItemCarrot(Integer meta, int count) {
-        super(CARROT, 0, count, "Carrot");
+        super(CARROT, 0, count, TextFormat.GOLD + "Carrot");
         this.block = new BlockCarrot();
     }
 
