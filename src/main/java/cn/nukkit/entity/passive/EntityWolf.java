@@ -49,7 +49,7 @@ public class EntityWolf extends EntityAnimal {
 
     @Override
     public Item[] getDrops() {
-        return new Item[]{};
+        return new Item[]{Item.get(Item.DIAMOND)};
     }
 
     @Override
