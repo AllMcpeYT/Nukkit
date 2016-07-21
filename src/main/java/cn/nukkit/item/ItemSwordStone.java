@@ -15,7 +15,7 @@ public class ItemSwordStone extends ItemTool {
     }
 
     public ItemSwordStone(Integer meta, int count) {
-        super(STONE_SWORD, meta, count, "Stone Sword");
+        super(STONE_SWORD, meta, count, TextFormat.GRAY + "Stone Sword");
     }
 
     @Override
