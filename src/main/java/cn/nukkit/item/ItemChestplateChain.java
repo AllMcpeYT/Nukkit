@@ -1,9 +1,5 @@
 package cn.nukkit.item;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
 public class ItemChestplateChain extends ItemArmor {
 
     public ItemChestplateChain() {
@@ -15,7 +11,7 @@ public class ItemChestplateChain extends ItemArmor {
     }
 
     public ItemChestplateChain(Integer meta, int count) {
-        super(CHAIN_CHESTPLATE, meta, count, "Chain Chestplate");
+        super(CHAIN_CHESTPLATE, meta, count, TextFormat.GRAY + "Chain Chestplate");
     }
 
     @Override
