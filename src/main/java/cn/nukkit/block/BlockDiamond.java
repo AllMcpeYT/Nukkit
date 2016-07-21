@@ -39,7 +39,7 @@ public class BlockDiamond extends BlockSolid {
 
     @Override
     public String getName() {
-        return "Diamond Block";
+        return TextFormat.AQUA + "Diamond Block";
     }
 
     @Override
