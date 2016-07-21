@@ -1,9 +1,5 @@
 package cn.nukkit.item;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
 public class ItemSwordDiamond extends ItemTool {
 
     public ItemSwordDiamond() {
@@ -15,7 +11,7 @@ public class ItemSwordDiamond extends ItemTool {
     }
 
     public ItemSwordDiamond(Integer meta, int count) {
-        super(DIAMOND_SWORD, meta, count, "Diamond Sword");
+        super(DIAMOND_SWORD, meta, count, TextFormat.AQUA + "Diamond Sword");
     }
 
     @Override
