@@ -15,7 +15,7 @@ public class ItemAxeDiamond extends ItemTool {
     }
 
     public ItemAxeDiamond(Integer meta, int count) {
-        super(DIAMOND_AXE, meta, count, "Diamond Axe");
+        super(DIAMOND_AXE, meta, count, TextFormat.AQUA + "Diamond Axe");
     }
 
     @Override
